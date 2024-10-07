@@ -171,7 +171,7 @@ AddItem("Chorizo")
 // Call 8: Add Multigrain Crackers
 AddItem("Multigrain Crackers")
 // Call 9: Update Chorizo to Jamon
-update("Jamon")
+update("Chorizo","Jamon")
 // Call 10: Show the count of items
 count()
 // Call 11: Add Pita Chips
