@@ -76,7 +76,7 @@ console.log("Item updated from " + oldItem2 + " to " + newItem2);
 
 function update(indextoUpdate, NewItem){
   groceryList[indextoUpdate] = NewItem;
-  console.log("Item updated from " + olditem + " to " + newItem);
+  console.log("Item updated from " + oldItem2 + " to " + newItem2);
   return NewItem
 }
 
@@ -110,7 +110,7 @@ function current(){
 // 1. Write a function that logs how many items you have left in the list.
 // It should log the following "The grocery list has x item(s).", with x being how many items are left.
 // Returns the grocery list length.
-function count(groceryList){
+function count(){
 let itemCount = groceryList.length
 console.log("The grocery list has" + itemCount + "item(s).")
 return itemCount
@@ -123,7 +123,7 @@ return itemCount
 // It should log the following "The grocery list is now empty."
 // Returns the empty grocery list.
 
-function clear(groceryList){
+function clear(){
   groceryList.length = 0
   console.log("The grocery list is now empty.")
   return groceryList
@@ -161,7 +161,7 @@ AddItem("Gouda Cheese")
 // Call 3: Add Swiss Cheese
 AddItem("Swiss Cheese")
 // Call 4: Remove Swiss Cheese
-remove("Swiss Cheese")
+ItemRemove("Swiss Cheese")
 // Call 5: Add Green Grapes
 AddItem("Green Grapes")
 // Call 6: Add Prosciutto
